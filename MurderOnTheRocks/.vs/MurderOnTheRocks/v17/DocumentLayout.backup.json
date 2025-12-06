@@ -41,9 +41,16 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
               "ToolTip": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAA0AAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD9SURBVDhP7Y\u002B9asJgGIWfRD6LEPACCgWhQeykEKSjY8gFxD8QHMS1t\u002BFgcXFz6FakSG/AG9BOksUM0qHtUhqKkEmQ16H1Q6Q0uPtMB87hvOeFM5rF20JaTy0pDApi39tSH9dl70XrSPKDvBxrAAMgeA\u002BkNqlRvizTLrbJXmRZfi2plqpGtI7EGTn7vCadShPehQYAneeOeA\u002BexHGsmw/5b4EJMP\u002BY4167WJb103gCJoAyFcpUxx78XnRGDpvthlw/p/XhCprjpviP/p/zSXjBAJi9zqQxaeDaLv6Nj0opgs\u002BA7m038SUdmIZTGb4MWX2vyKgMlasKPa\u002BXWHAGdt/Acu2QGdhLAAAAAElFTkSuQmCC",
               "WhenOpened": "2025-12-02T16:44:53.311Z"
+=======
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T16:44:53.311Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }
