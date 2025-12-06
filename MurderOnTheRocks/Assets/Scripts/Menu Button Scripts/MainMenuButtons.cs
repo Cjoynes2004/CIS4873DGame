@@ -22,6 +22,8 @@ public class MainMenuButtons : MonoBehaviour
     public void BackToMenu()
     {
         SceneManager.LoadScene(0);  // loads scene at index 0(Main Menu)
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
