@@ -4,7 +4,11 @@
   "Documents": [
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|c:\\users\\devau\\onedrive\\blubblub repos\\cis4873dgame\\murderontherocks\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
 =======
       "AbsoluteMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|c:\\users\\devau\\onedrive\\blubblub repos\\cis4873dgame\\murderontherocks\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
 >>>>>>> Stashed changes
@@ -50,7 +54,11 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
               "ToolTip": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAACIAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-06T23:30:24.266Z",
               "EditorCaption": ""

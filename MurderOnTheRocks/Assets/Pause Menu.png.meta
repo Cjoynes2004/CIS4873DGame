@@ -101,6 +101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         x: 0
         y: 0
         width: 0
@@ -140,6 +141,11 @@ TextureImporter:
         x: 144
         y: 168
         width: 742
+=======
+        x: 142
+        y: 549
+        width: 740
+>>>>>>> Stashed changes
         height: 316
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -149,8 +155,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
+<<<<<<< Updated upstream
       spriteID: e5fd99600d7a13a4b82d55a29afc75bd
       internalID: 578603448
+>>>>>>> Stashed changes
+=======
+      spriteID: 55412b7a181d3e0448724441f3d73fc3
+      internalID: 1749238715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pause Menu_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 168
+        width: 744
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8df651ea1752b42ad15fb8a9ef1832
+      internalID: -1710299391
 >>>>>>> Stashed changes
       vertices: []
       indices: 
@@ -161,9 +194,13 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     spriteID: 
 =======
     spriteID: 0ebc2c90b49652a469237e3482b4cff0
+>>>>>>> Stashed changes
+=======
+    spriteID: 4831a470274eced448441c4b2a30a7ac
 >>>>>>> Stashed changes
     internalID: 0
     vertices: []
@@ -173,16 +210,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       entries: []
     nameFileIdTable:
       Pause Menu_0: -5595060121271099896
 =======
+=======
+>>>>>>> Stashed changes
       entries:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":2.0},"gridSpriteSize":{"x":1024.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+<<<<<<< Updated upstream
       Pause Menu_0: 2126962951
       Pause Menu_1: 578603448
+>>>>>>> Stashed changes
+=======
+      Pause Menu_0: 1749238715
+      Pause Menu_1: -1710299391
 >>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
