@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\assets\\scripts\\menu button scripts\\mainmenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|c:\\users\\devau\\onedrive\\blubblub repos\\cis4873dgame\\murderontherocks\\assets\\scripts\\menu button scripts\\mainmenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57850C41-B4BE-9573-E082-384BBFCAFABA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu button scripts\\mainmenubuttons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,6 +26,7 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\PauseMenu.cs",
@@ -52,12 +53,15 @@
             },
             {
               "$type": "Document",
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 1,
               "Title": "MainMenuButtons.cs",
               "DocumentMoniker": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
               "ToolTip": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu Button Scripts\\MainMenuButtons.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAA0AAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -68,6 +72,25 @@
 >>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T16:44:53.311Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:34:10.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\devau\\OneDrive\\blubblub repos\\CIS4873DGame\\MurderOnTheRocks\\Assets\\Scripts\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T00:28:55.088Z",
               "EditorCaption": ""
 >>>>>>> Stashed changes
             }

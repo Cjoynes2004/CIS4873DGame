@@ -100,42 +100,20 @@ TextureImporter:
       name: Pause Menu_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 547
-        width: 736
-        height: 309
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7431d27023c596447b7272f1c492a05f
-      internalID: 1334833910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pause Menu_1
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 168
-        width: 744
-        height: 313
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7e9616d1cc9ab1498b59a1ce0f81ab9
-      internalID: 808106921
+      spriteID: 80e9eaea67a5a52b0800000000000000
+      internalID: -5595060121271099896
       vertices: []
       indices: 
       edges: []
@@ -144,7 +122,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 280b54656a3489348a2af9d443c24daf
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -152,12 +130,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":2.0},"gridSpriteSize":{"x":1024.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Pause Menu_0: 1334833910
-      Pause Menu_1: 808106921
+      Pause Menu_0: -5595060121271099896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

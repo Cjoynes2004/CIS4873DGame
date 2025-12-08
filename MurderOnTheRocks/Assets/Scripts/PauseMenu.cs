@@ -56,4 +56,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
