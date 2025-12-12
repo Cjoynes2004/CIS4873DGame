@@ -100,118 +100,20 @@ TextureImporter:
       name: Pause Menu_0
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
-        x: 142
+        x: 140
         y: 547
-        width: 742
-        height: 318
+        width: 744
+        height: 317
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-<<<<<<< Updated upstream
       tessellationDetail: -1
       bones: []
       spriteID: 80e9eaea67a5a52b0800000000000000
       internalID: -5595060121271099896
-=======
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43ade7b4bef7b4045a43a1df9e4b2396
-      internalID: 2126962951
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pause Menu_1
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 168
-        width: 742
-=======
-        x: 142
-        y: 549
-        width: 740
->>>>>>> Stashed changes
-=======
-        x: 142
-        y: 549
-        width: 740
->>>>>>> Stashed changes
-=======
-        x: 142
-        y: 549
-        width: 740
->>>>>>> Stashed changes
-        height: 316
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-=======
-        x: 144
-        y: 551
-        width: 742
-        height: 309
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9bf93cbcd1218d4a8ac13938916c946
-      internalID: 1838148906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pause Menu_1
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 170
-        width: 744
-        height: 318
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
->>>>>>> Stashed changes
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      spriteID: e5fd99600d7a13a4b82d55a29afc75bd
-      internalID: 578603448
->>>>>>> Stashed changes
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-      spriteID: 55412b7a181d3e0448724441f3d73fc3
-      internalID: 1749238715
       vertices: []
       indices: 
       edges: []
@@ -221,9 +123,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 138
-        y: 168
-        width: 744
-        height: 313
+        y: 164
+        width: 748
+        height: 319
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,19 +134,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8df651ea1752b42ad15fb8a9ef1832
-      internalID: -1710299391
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
-      spriteID: 3266ab243e0a58b4c80059784eca2807
-      internalID: 1841181724
->>>>>>> Stashed changes
+      spriteID: e61761572c305e24287eb7e90d493c1d
+      internalID: 605054174
       vertices: []
       indices: 
       edges: []
@@ -253,27 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    spriteID: 
-=======
-    spriteID: 0ebc2c90b49652a469237e3482b4cff0
->>>>>>> Stashed changes
-=======
-    spriteID: 4831a470274eced448441c4b2a30a7ac
->>>>>>> Stashed changes
-=======
-    spriteID: 4831a470274eced448441c4b2a30a7ac
->>>>>>> Stashed changes
-=======
-    spriteID: 4831a470274eced448441c4b2a30a7ac
->>>>>>> Stashed changes
-=======
-    spriteID: 85c101baac8a3b6498425c00f0151010
->>>>>>> Stashed changes
+    spriteID: fe88b629d7946184eafbc072c34dd048
     internalID: 0
     vertices: []
     indices: 
@@ -281,50 +152,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      entries: []
-    nameFileIdTable:
-      Pause Menu_0: -5595060121271099896
-=======
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
       entries:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":2.0},"gridSpriteSize":{"x":1024.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-      Pause Menu_0: 2126962951
-      Pause Menu_1: 578603448
->>>>>>> Stashed changes
-=======
-      Pause Menu_0: 1749238715
-      Pause Menu_1: -1710299391
->>>>>>> Stashed changes
-=======
-      Pause Menu_0: 1749238715
-      Pause Menu_1: -1710299391
->>>>>>> Stashed changes
-=======
-      Pause Menu_0: 1749238715
-      Pause Menu_1: -1710299391
->>>>>>> Stashed changes
-=======
-      Pause Menu_0: 1838148906
-      Pause Menu_1: 1841181724
->>>>>>> Stashed changes
+      Pause Menu_0: -5595060121271099896
+      Pause Menu_1: 605054174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
