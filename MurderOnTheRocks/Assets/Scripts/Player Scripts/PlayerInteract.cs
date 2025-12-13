@@ -73,14 +73,14 @@ public class PlayerInteract : MonoBehaviour
         Ingredient ingredient = hit.collider.GetComponent<Ingredient>();
         if (ingredient)
         {
-            //To be implemented by hailey
+            print("This is an ingredient");
             return;
         }
 
         Customer customer = hit.collider.GetComponent<Customer>();
         if (customer)
         {
-            //To be implemented by Chandler
+            print("This is a customer");
             return;
         }
     }
@@ -99,7 +99,7 @@ public class PlayerInteract : MonoBehaviour
         Customer customer = hit.collider.GetComponent<Customer>();
         if (customer)
         {
-            //To be implemented by Chandler
+            print("This is a customer, empty handed.");
             return;
         }
 
