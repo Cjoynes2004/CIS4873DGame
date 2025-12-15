@@ -7,11 +7,14 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private float interactRange;
 
+    public CustomerManager customerManager;
+
     private Glass heldGlass = null;
+    private Receipt playerOrder;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        playerOrder = GetComponent<Receipt>();
     }
 
     // Update is called once per frame
@@ -80,6 +83,12 @@ public class PlayerInteract : MonoBehaviour
         Customer customer = hit.collider.GetComponent<Customer>();
         if (customer)
         {
+            if (!customerManager.CanClick)
+                return;
+
+
+            customer.AbstractOrder(playerOrder);
+
             print("This is a customer");
             return;
         }
