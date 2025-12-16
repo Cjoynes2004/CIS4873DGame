@@ -1,16 +1,17 @@
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class EntityController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void OnPlayerClicked()
     {
-        
+        Debug.Log("Entity clicked - giving order!");
+        GiveOrder();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GiveOrder()
     {
-        
+        // Plug in UI here
+        Debug.Log("The Entity whispers: '...Bring me something... foul...'");
     }
 }
