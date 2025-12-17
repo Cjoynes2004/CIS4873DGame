@@ -791,13 +791,15 @@ GameObject:
   - component: {fileID: 346080945}
   - component: {fileID: 346080944}
   - component: {fileID: 346080943}
-  m_Layer: 0
+  - component: {fileID: 346080949}
+  - component: {fileID: 346080950}
+  m_Layer: 3
   m_Name: Entity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &346080943
 Animator:
   serializedVersion: 7
@@ -841,6 +843,8 @@ PlayableDirector:
     value: {fileID: 346080943}
   - key: {fileID: -1056026330636553814, guid: 67ae6154df72e1943960b5a7fb73eeb2, type: 2}
     value: {fileID: 346080943}
+  - key: {fileID: -360008938405852441, guid: 67ae6154df72e1943960b5a7fb73eeb2, type: 2}
+    value: {fileID: 346080950}
   m_ExposedReferences:
     m_References:
     - cc3a0a725fb26bd4784e93505b1f791a: {fileID: 346080942}
@@ -938,6 +942,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &346080949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346080942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb087ca936d1af45bca3687f37a1bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityController
+  barLights:
+  - {fileID: 786068735}
+  - {fileID: 672491769}
+  - {fileID: 1332189309}
+--- !u!114 &346080950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346080942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.SignalReceiver
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: 3b26c55e6cb2faf4fa471678fe5f8068, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 346080949}
+          m_TargetAssemblyTypeName: EntityController, Assembly-CSharp
+          m_MethodName: StartEntranceEffects
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &360552717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,7 +1397,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &628748807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1398,6 +1448,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e89d264c2d62ba4ebbc34954f7a3bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+--- !u!108 &672491769 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: -2551906887637502844, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
+  m_PrefabInstance: {fileID: 1891714626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &701879846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,6 +1697,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767774422}
   m_CullTransparentMesh: 1
+--- !u!108 &786068735 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: -6014877408759584184, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
+  m_PrefabInstance: {fileID: 1891714626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &805072623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2290,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315433111}
   m_CullTransparentMesh: 1
+--- !u!108 &1332189309 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: -1641641546058327572, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
+  m_PrefabInstance: {fileID: 1891714626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1340347865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,9 +2564,10 @@ GameObject:
   - component: {fileID: 1426406630}
   - component: {fileID: 1426406631}
   - component: {fileID: 1426406632}
+  - component: {fileID: 1426406633}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2764,6 +2830,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e9c02bb1c6660f49811c694239c408e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Receipt
+--- !u!114 &1426406633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426406623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98c4fd8584700d54cb9dd61bed82a760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EntityClickBehavior
+  interactDistance: 3
+  entityLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1428929125
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,6 +3428,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8700617353114198275, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.58394
@@ -3385,6 +3471,14 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -6810734313508208811, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6722085885383957590, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6722085885383957590, guid: d1790ca7e8fe7094ca284fcacf390a3c, type: 3}
       propertyPath: m_Intensity
