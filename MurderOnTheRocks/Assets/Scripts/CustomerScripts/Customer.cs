@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class Customer : MonoBehaviour
@@ -5,6 +6,8 @@ public class Customer : MonoBehaviour
     Receipt customerOrder;
 
     public Customer realCustomer;
+    public TextMeshProUGUI orderText;
+
     public bool isProxy;
     private CustomerManager manager;
 
@@ -12,7 +15,6 @@ public class Customer : MonoBehaviour
     void Start()
     {
         customerOrder = GetComponent<Receipt>();
-        customerOrder.GenerateOrder();
         manager = GetComponentInParent<CustomerManager>();
     }
     
@@ -36,17 +38,23 @@ public class Customer : MonoBehaviour
         }
     }
 
-    private void CheckOrder(Receipt order)
+    private void CheckOrder(Receipt order) //Eventually this will be more than just pass/fail
     {
         if (customerOrder.IsEqual(order))
         {
-
+            manager.RequestNextCustomer();
+            orderText.text = "No Current Order";
         }
-        manager.RequestNextCustomer();
     }
 
     public void GiveOrder()
     {
+        string glass = customerOrder.glassType;
+        string baseIng = customerOrder.baseType;
+        string ingredients = string.Join(", ", customerOrder.customIngredients);
 
+        orderText.text = $"{customerOrder.glassType}\n" +
+            $"{customerOrder.baseType}\n" +
+            $"{ingredients}";
     }
 }

@@ -1,0 +1,26 @@
+# GLASSES
+GLASS,Beer,8
+GLASS,Champange,4
+GLASS,Cocktail,4
+GLASS,Highball,6
+GLASS,Margarita,4
+GLASS,Pilsner,8
+GLASS,Pint,10
+GLASS,Wine(R),4
+GLASS,Rocks,2
+GLASS,Shot,2
+GLASS,Wine(W),4
+
+# BASES
+BASE,Vodka
+BASE,Gin
+BASE,Rum
+BASE,Beer
+BASE,Wine
+
+# INGREDIENTS
+INGREDIENT,Lime
+INGREDIENT,Orange
+INGREDIENT,Salt
+INGREDIENT,Coke
+INGREDIENT,Juice

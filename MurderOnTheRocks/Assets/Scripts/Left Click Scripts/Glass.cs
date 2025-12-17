@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Glass: MonoBehaviour
 {
-   
+    public string glassType;
 }

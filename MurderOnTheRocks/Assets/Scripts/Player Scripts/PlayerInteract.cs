@@ -109,6 +109,7 @@ public class PlayerInteract : MonoBehaviour
         if (customer)
         {
             print("This is a customer, empty handed.");
+            customer.GiveOrder();
             return;
         }
 
